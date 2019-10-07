@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> UTS </title>
+    <meta charset="utf-8">
+    <link rel ="stylesheet" href="index.css">
+    <script src="index.js" async></script>
+</head>
+<body>
+ <form action="" method="post" name="uts">
+<pre>
+    <div class="biodata">
+       <input type="text" name="tanggal" placeholder="dd-mm-yyy"/>
+       <input type="text" name="name" placeholder="Nama Anda"/>
+       <input type="text" name="nim" placeholder="NIM"/>
+       <input type="text" name="semester" placeholder="Semester"/>
+       <input type="hidden" name="matkul" value="PWII (UTS)">
+    </div>
+<h3>Soal Pilihan Ganda (UTS)</h3>
+<p>Pilih Satu (1) Jawaban Yang Anda Anggap Benar!</p>
+
+<ol>
+<li>Arti "Float" dalam CSS ialah . . .
+   <select name="item1">
+     <option value="">Pilih Jawaban</option>
+     <option value="item1a">Terapung</option>
+     <option value="item1b">Melayang</option>
+     <option value="item1c">Mengembang</option>
+     <option value="item1d">Semua Benar</option>
+   </select>
+</li>
+
+<li> Dibawah ini yang termasuk rumah tradisional suku Dayak Kalimantan adalah. . .
+   <select name="item2">
+     <option value="">Pilih Jawaban</option>
+     <option value="item2a">Rumah Lantik</option>
+     <option value="item2b">Rumah Panjang</option>
+     <option value="item2c">Rumah Joglo</option>
+     <option value="item2d">Rumah Badui</option>
+   </select>
+</li>
+
+<li> Berikut yang termasuk alat musik petik, kecuali. . .
+  <select name="item3">
+     <option value="">Pilih Jawaban</option>
+     <option value="item3a">Kulintang</option>
+     <option value="item3b">Gitar</option>
+     <option value="item3c">Bas</option>
+     <option value="item3d">Siter</option>
+   </select>
+</li>
+  </ol>
+  
+   <tr>
+      <input type="button" value="Hitung" onclick="kompak()">
+      <input type="text" name="nilai">
+  </tr>
+  
+</form>
+</body>
+</html>
